@@ -1,16 +1,16 @@
 // ==UserScript==
 // @name         LoveLive 票券座席本地预览编辑
 // @namespace    https://github.com/yuuuiv/lovelive-edit-facepage
-// @version      1.0.5
+// @version      1.0.6
 // @description  在本机临时预览自定义座席文字；刷新页面后自动恢复原状。
 // @author       yuuuiv
 // @license      MIT
-// @match        https://lovelive.auth-thru-ticket.net/lovebgps/customer/ticket*
-// @match        https://lovelive.auth-thru-ticket.net/lovebgps/customer/face_image*
-// @downloadURL  https://raw.githubusercontent.com/yuuuiv/lovelive-edit-facepage/main/LoveLive%20%E7%A5%A8%E5%88%B8%E5%BA%A7%E5%B8%AD%E6%9C%AC%E5%9C%B0%E9%A2%84%E8%A7%88%E7%BC%96%E8%BE%91-1.0.4.js
-// @updateURL    https://raw.githubusercontent.com/yuuuiv/lovelive-edit-facepage/main/LoveLive%20%E7%A5%A8%E5%88%B8%E5%BA%A7%E5%B8%AD%E6%9C%AC%E5%9C%B0%E9%A2%84%E8%A7%88%E7%BC%96%E8%BE%91-1.0.4.js
+// @match        https://lovelive.auth-thru-ticket.net/*/customer/ticket*
+// @match        https://lovelive.auth-thru-ticket.net/*/customer/face_image*
 // @grant        none
 // @run-at       document-idle
+// @downloadURL https://update.greasyfork.org/scripts/586971/LoveLive%20%E7%A5%A8%E5%88%B8%E5%BA%A7%E5%B8%AD%E6%9C%AC%E5%9C%B0%E9%A2%84%E8%A7%88%E7%BC%96%E8%BE%91.user.js
+// @updateURL https://update.greasyfork.org/scripts/586971/LoveLive%20%E7%A5%A8%E5%88%B8%E5%BA%A7%E5%B8%AD%E6%9C%AC%E5%9C%B0%E9%A2%84%E8%A7%88%E7%BC%96%E8%BE%91.meta.js
 // ==/UserScript==
 
 (() => {
